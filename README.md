@@ -1,5 +1,5 @@
 # Public-Nxlog-Configs
-This repository has NxLog configs that use a modular approach to configs. 
+This repository has NxLog configs that use a modular approach to configs for Google SecOps. 
 A master config file that will contain global values sets a include varaible, %ROOT%\conf\nxlog.d. 
 All configs placed in %ROOT%\conf\nxlog.d will be run after the master config file loads the global values.
 
